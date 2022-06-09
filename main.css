@@ -1,0 +1,102 @@
+* {
+    color: white;
+    font-family: 'Montserrat';
+}
+body {
+    /* background: url('./promo.png') no-repeat; */
+    background-size: 100%;
+    background-color: #282828; 
+}
+
+.main {
+  
+}
+
+.header{
+    display: grid;
+    margin-top: 2em;
+    margin-left: 2em;
+    grid-template-columns: 2fr 5fr 2fr;
+}
+.header_left{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+.header_logo {
+    max-width: auto;
+    justify-self: center;
+    /* margin-right: 1em; 
+    Поставить медиа запрос
+    */
+}
+.header_energosila{
+    font-size: 2.1em;
+    justify-self: start;
+    white-space: nowrap;
+}
+
+.header_menu {
+    margin-top: 1.3em;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menu_link {
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 2em;
+    text-align: center;
+    padding-bottom: 0.4em;
+    border-bottom: 0.12em #E4C47F solid;
+}
+
+.header_contacts{
+    margin-top: 0.5em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 3;
+}
+.contact {
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: 1em;
+}
+.promo {
+    /* grid-area: 'promo'; */
+    margin-left: 15em ;
+    margin-top: 15em;
+}
+.promo_text {
+
+}
+.promo_btn {
+    text-decoration: none;
+}
+.promo_image {
+    position: absolute;
+    right: 0;
+    top: 21.688em;
+    z-index: 2;
+}
+.right_place {
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #E4C47F;
+}
+.bottom_place {
+    position: absolute;
+    bottom: 0;
+    height: 140px;
+    width: 60%;
+    right: 0;
+    background-color: #E4C47F;
+}
+
